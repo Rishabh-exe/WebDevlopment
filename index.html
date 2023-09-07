@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="abcindex.css">
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+<body style="background-color: #fdcc04;">
+    <br>
+     <nav>
+        <div class="logo">RISHABH KUSHWAH</div>
+        <div class="nav-item">
+            <a href="#language">Languages</a>
+            <a href="/">Project</a>
+            <a href="/">Handles</a>
+            <a href="/">About</a>
+        </div>
+     </nav>
+     <section class="hero">
+        <div class="hero-container ">
+            <div class="column-left">
+                <h1>Developer</h1>
+                <p>
+                    Hey! I'am <b>Rishabh Kushwah</b>,
+                    Learning Web Development
+                    With Basic Projects,
+                    like This is one of them.
+                </p>
+                <button>Contact</button>
+            </div>
+            <!-- <div class="column-right">
+                <img src="pngegg.png" alt="logo">
+            </div> -->
+
+        </div>
+     </section>
+     <section id="language" style="background-color: #fdcc04;">
+        <br><br><br>
+        
+     </section>
+     <script>
+        $(document).ready(function()
+        {
+            $(".logo").hover(function(){
+                
+              $(this).css("color","black")
+              .slideToggle(1000);
+              $(this).css()
+            });
+        })
+        // $(document).ready(function() {
+        //         $(".logo").mouseover(function(){
+        //             $(this).hide(1000);
+        //         })
+        //         $(".logo").mouseleave(function(){
+        //             $(this).show(1000);
+        //         })
+		// 	});
+     </script>
+</body>
+</html>
